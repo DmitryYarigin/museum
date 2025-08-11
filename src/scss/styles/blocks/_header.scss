@@ -1,0 +1,50 @@
+@use '../vars'  as *;
+
+// =============== HEADER ================
+
+.header {
+        background-color: $bg-dark-color;
+        color: $bg-color;
+
+		// .header__inner
+
+		&__inner {
+			padding: 62px 0;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		// .header__logo-block
+
+		&__logo-block {
+			display: flex
+		}
+
+		// .header__logo
+
+		&__logo {
+		}
+
+		// .header__nav
+
+		&__nav {
+		}
+
+		// .header__nav-list
+
+		&__nav-list {
+			display: flex;
+		}
+
+		// .header__list-item
+
+		&__list-item {
+		}
+
+		// .header__list-link
+
+		&__list-link {
+		}
+}
+.container {
+}
