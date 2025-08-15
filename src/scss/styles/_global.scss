@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: $bg-color;
+    background-color: $light-color;
     user-select: none;
     font-family:  'Roboto', sans-serif;
     font-weight: 200;
@@ -21,4 +21,11 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.heading {
+    font-family: 'Forum', serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: normal;
 }

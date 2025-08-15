@@ -1,0 +1,148 @@
+@use '../vars'  as *;
+
+.welcome {
+        background-color: $dark-color;
+		padding-bottom: 60px;
+		// .welcome__inner
+
+		&__inner {
+		position: relative;
+		}
+
+		// .welcome__info
+
+		&__info {
+			position: absolute;
+            color: $light-color;
+            max-width: 624px;
+		}
+
+		// .welcome__info-header
+
+		&__info-header {
+            padding-bottom: 25px;
+		}
+
+		// .welcome__info-text
+
+		&__info-text {
+            font-size: 28px;
+            margin-bottom: 75px;
+		}
+
+		// .welcome__info-button
+
+		&__info-button {
+			border-radius: 10px;
+			font-size: 22px;
+			color: $light-color;
+			border-style: none;
+			background-color: $dark-red;
+			padding: 21px  67px;
+			letter-spacing: 2px;
+			transition: all .3s;
+
+			&:hover {
+				background-color: $gold;
+			}
+			&:active { 
+			  transform: translateY(2px); 
+			}
+		}
+
+		// .welcome__slider-block
+
+		&__slider-block {
+		}
+
+		// .welcome__image-block
+
+		&__image-block {
+		}
+
+		// .welcome__img
+
+		&__img {
+			margin-left: auto;
+		}
+
+		// .welcome__pagination
+
+		&__pagination {
+			background-color: $dark-color;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			color: $light-color;
+			display: flex;
+			padding: 35px 75px;
+		}
+
+		// .welcome__pagination-numbers
+
+		&__pagination-numbers {
+			display: flex;
+			margin-right: 55px;
+		}
+
+		// .welcome__pagination-number
+
+		&__pagination-number {
+		}
+
+		// .welcome__pagination-diceder
+
+		&__pagination-diceder {
+			
+		}
+
+		// .welcome__pagination-blocks
+
+		&__pagination-blocks {
+			display: flex;
+			align-items: center;
+			column-gap: 25px;
+			margin-right: 60px;
+		}
+
+		// .welcome__pagination-block
+
+		&__pagination-block {
+			background-color: #fff;
+			width: 16px;
+			height: 16px;
+
+			&.active {
+				background-color: $gold;
+			}
+		}
+
+		// .welcome__pagination-arrows
+
+		&__pagination-arrows {
+			display: flex;
+			column-gap: 20px;
+		}
+
+		// .welcome__pagination-arrow-left
+
+		&__pagination-arrow-left {
+			background: url(../assets/images/left-arrow.png) no-repeat center center;
+			width: 40px;
+			height: 20px;
+		}
+
+		// .welcome__pagination-arrow-right
+
+		&__pagination-arrow-right {
+			background: url(../assets/images/right-arrow.png) no-repeat center center;
+			width: 40px;
+			height: 20px;
+		}
+}
+
+
+
+
+
+		
